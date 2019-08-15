@@ -7,10 +7,6 @@
 
 class Solution():
     def isValidBST(self, root):
-        """
-        :type root: TreeNode
-        :rtype: bool
-        """
         return self.isValid(root, float('-inf'), float('inf'))
 
     def isValid(self, root, lower, upper):
