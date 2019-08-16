@@ -1,6 +1,3 @@
-from collections import defaultdict
-
-
 class Solution(object):
     def ladderLength(self, beginWord, endWord, wordList):
         """
@@ -13,7 +10,7 @@ class Solution(object):
             return 0
 
         L = len(beginWord)
-        all_combo = defaultdict(list)
+        all_combo = collections.defaultdict(list)
 
         for w in wordList:
             for i in range(L):

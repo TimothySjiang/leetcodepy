@@ -19,4 +19,4 @@ class Solution:
                     memo[word] = True
                     break
             return memo[word]
-        return [word for word in words if dfs(word)] 
+        return [word for word in words if dfs(word)]
