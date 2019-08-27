@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="718c453f-6ac4-424b-9188-e4afca07a89b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Solution_1143.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Solution_120_2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Solution_322_6.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Solution_322_7.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Solution_322_8.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Solution_643.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Solution_644.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Solution_644_2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Solution_97.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Solution_97_2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Solution_97_3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Solution_97_4.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Solution_198.py" afterPath="$PROJECT_DIR$/Solution_198.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Solution_213.py" afterPath="$PROJECT_DIR$/Solution_213.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Solution_322_3.py" afterPath="$PROJECT_DIR$/Solution_322_3.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Solution_322_4.py" afterPath="$PROJECT_DIR$/Solution_322_4.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Solution_322_5.py" afterPath="$PROJECT_DIR$/Solution_322_5.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Solution_97_2.py" afterPath="$PROJECT_DIR$/Solution_97_2.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,41 +16,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file leaf-file-name="Solution_120.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Solution_120.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution_120_2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Solution_120_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Solution_97.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Solution_97.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Solution_97_2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Solution_97_2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Solution_97_2.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="18" column="102" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="18" selection-end-column="102" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution_97_3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Solution_97_3.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="4" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution_97_4.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Solution_97_4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -84,8 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Solution_131.py" />
-        <option value="$PROJECT_DIR$/Solution_132.py" />
         <option value="$PROJECT_DIR$/Solution_132_2.py" />
         <option value="$PROJECT_DIR$/Solution_132_3.py" />
         <option value="$PROJECT_DIR$/Solution_93.py" />
@@ -135,6 +121,8 @@
         <option value="$PROJECT_DIR$/Solution_120_2.py" />
         <option value="$PROJECT_DIR$/Solution_97.py" />
         <option value="$PROJECT_DIR$/Solution_97_2.py" />
+        <option value="$PROJECT_DIR$/Solution_97_3.py" />
+        <option value="$PROJECT_DIR$/Solution_97_4.py" />
       </list>
     </option>
   </component>
@@ -315,20 +303,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Solution_200_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Solution_499.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Solution_505.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="536">
@@ -649,14 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Solution_120.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Solution_120_2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -665,18 +631,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Solution_120.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Solution_97.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Solution_97_2.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="18" column="102" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="18" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Solution_97_3.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="4" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Solution_97_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="43" />
           <folding />
         </state>
       </provider>
