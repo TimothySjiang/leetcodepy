@@ -1,14 +1,13 @@
-class Solution(object):
-    def generateParenthesis(self, N):
+class Solution:
+    def generateParenthesis(self, n: int) -> List[str]:
         ans = []
-        def backtrack(S = '', left = 0, right = 0):
-            if len(S) == 2 * N:
-                ans.append(S)
-                return
-            if left < N:
-                backtrack(S+'(', left+1, right)
-            if right < left:
-                backtrack(S+')', left, right+1)
-
-        backtrack()
+        self.recursion('', 0, 0, n, ans)
         return ans
+
+    def recursion(self, s, l, r, n, ans):
+        if len(s) == 2 * n:
+            ans.append(s)
+        if l < n:
+            self.recursion(s + '(', l + 1, r, n, ans)
+        if r < l:
+            self.recursion(s + ')', l, r + 1, n, ans)
