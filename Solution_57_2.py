@@ -1,8 +1,5 @@
 class Solution:
-    # @param intervals, a list of Intervals
-    # @param newInterval, a Interval
-    # @return a list of Interval
-    def insert(self, intervals, newInterval):
+    def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
         start = newInterval[0]
         end = newInterval[1]
         res = []
@@ -15,11 +12,8 @@ class Solution:
                 end = max(end,intervals[i][1])
             else:
                 res.append(intervals[i])
-            i += 1
+            i+=1
 
         res.append([start,end])
         res += intervals[i:]
         return res
-
-
-
