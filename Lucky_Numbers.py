@@ -1,7 +1,7 @@
 class solution:
     def luckNumbers(self,num,target):
         result = []
-        self.recursion(self,num,target,'',0,0,0,result)
+        self.recursion(num,target,'',0,0,0,result)
         return result
 
     def recursion(self,num,target,temp,pos,current,last,result):
