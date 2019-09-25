@@ -1,7 +1,8 @@
-class Solution(object):
-    def reorderLogFiles(self, logs):
-        def f(log):
-            id_, rest = log.split(" ", 1)
-            return (0, rest, id_) if rest[0].isalpha() else (1,)
+#Understanding of sort
+class Solution:
+    def reorderLogFiles(self, logs: List[str]) -> List[str]:
+        return sorted(logs, key=self.comparator)
 
-        return sorted(logs, key = f)
+    def comparator(self, log):
+        id_, rest = log.split(" ", 1)
+        return (0, rest, id_) if rest[0].isalpha() else (1,)
