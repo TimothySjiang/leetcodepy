@@ -1,7 +1,6 @@
 class Solution:
     def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
         n = len(gas)
-
         total_tank, curr_tank = 0, 0
         starting_station = 0
         for i in range(n):
