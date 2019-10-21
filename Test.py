@@ -1,14 +1,5 @@
-import Solution_47_2
+import Solution_588
+fileSystem = Solution_588.FileSystem()
 
-a = Solution_47_2.Solution()
-a.permuteUnique([1,1,2,3])
-
-
-
-
-
-
-
-
-
-
+fileSystem.addContentToFile('/dycete','emer')
+print(fileSystem.ls('/dycete'))
