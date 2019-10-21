@@ -5,7 +5,6 @@ class Node():
         self.Filename = ''
         self.content = ''
 
-
 class FileSystem:
     def __init__(self):
         self.root = Node()
@@ -19,7 +18,7 @@ class FileSystem:
                     return []
                 node = node.dic[d]
         if node.isFile:
-            return node.Filename
+            return [node.Filename]
         return sorted(node.dic.keys())
 
     def mkdir(self, path: str) -> None:
