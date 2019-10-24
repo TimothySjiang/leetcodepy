@@ -8,6 +8,5 @@ class Solution:
         while len(h) > 1:
             newstick = heapq.heappop(h) + heapq.heappop(h)
             count += newstick
-            heapq.heappush(h, newstick)
-
+            heapq.heappush(h,newstick)
         return count
