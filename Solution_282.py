@@ -1,5 +1,5 @@
-class solution:
-    def luckNumbers(self,num,target):
+class Solution:
+    def addOperators(self, num: str, target: int) -> List[str]:
         result = []
         self.recursion(num,target,'',0,0,0,result)
         return result
@@ -17,8 +17,6 @@ class solution:
             if not pos:
                 self.recursion(num,target,m,i+1,value,value,result)
             else:
-                self.recursion(num,target,temp+'+'+m,i+1,current+value,value,result)
+                self.recursion(num, target, temp + '+' + m, i + 1, current + value, value, result)
                 self.recursion(num, target, temp + '-' + m, i + 1, current - value, -value, result)
                 self.recursion(num, target, temp + '*' + m, i + 1, current - last + last * value, last*value, result)
-                if not value and not last%value:
-                    self.recursion(num, target, temp + '/' + m, i + 1, current -last + last/ value, last/value, result)
