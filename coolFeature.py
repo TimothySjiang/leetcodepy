@@ -3,14 +3,9 @@ import collections
 def coolFeature(a,b,queries):
     counter = collections.Counter(a)
     res = []
-    memo = {}
     for query in queries:
         if len(query) == 2:
-            if (query[1],tuple(b)) in memo:
-                res.append(memo[(query[1],tuple(b))])
-            else:
-                res.append(findSum(counter,b,query[1]))
-                memo[(query[1],tuple(b))] = res[-1]
+            res.append(findSum(counter,b,query[1]))
         else:
             b[query[1]] = query[2]
     return res
