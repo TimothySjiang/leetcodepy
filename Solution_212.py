@@ -11,7 +11,6 @@ class Solution:
                         if self.dfs(word, i, j, 1, board):
                             found = True
                             result.append(word)
-                            board[i][j] = word[0]
                             break
                         board[i][j] = word[0]
                 if found:
